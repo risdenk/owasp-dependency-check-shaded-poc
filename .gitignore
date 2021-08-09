@@ -1,0 +1,23 @@
+.classpath
+.project
+.settings
+dependency-reduced-pom.xml
+.idea/
+.iml/
+*.iml
+*.ipr
+*.iws
+atlassian-ide-plugin.xml
+.DS_Store
+target
+*.pyc
+*.py~
+*.patch
+
+# other IDEs and editors
+.vscode
+.c9/
+*.launch
+
+#System Files
+Thumbs.db
