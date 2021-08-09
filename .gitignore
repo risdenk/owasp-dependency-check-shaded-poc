@@ -21,3 +21,5 @@ target
 
 #System Files
 Thumbs.db
+
+.mvn/wrapper/maven-wrapper.jar
