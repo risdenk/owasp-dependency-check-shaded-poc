@@ -1,5 +1,12 @@
 # OWASP Dependency Check Shaded POC
 
+## Fix
+This is fixed by using:
+
+ `./mvnw clean verify -Danalyzer.dependencybundling.enabled=false`
+
+This was idenfied in https://github.com/jeremylong/DependencyCheck/issues/3577
+
 ## Overview
 When two Maven dependencies both shade the same library, 
 OWASP dependency check ends up only reporting one instance
